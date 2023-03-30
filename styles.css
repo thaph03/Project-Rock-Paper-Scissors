@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+}
+/* game header */
+.game-titles {
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Press Start 2P", cursive;
+  background-color: #23272a;
+}
+
+.game-name {
+  color: white;
+  font-size: 2.5em;
+}
+
+.scores-board {
+  padding: 0.25em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2c2f33;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.games-result,
+.games-output,
+.game-score {
+  margin-top: 1.7em;
+}
+
+.game-score {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  gap: 3rem;
+}
+
+.game-choices {
+  list-style: none;
+  display: flex;
+  gap: 4em;
+  background-color: #2c2f33;
+  flex-direction: row;
+  padding-left: 31em;
+}
+
+.rock,
+.paper,
+.scissors img {
+  transform: scale(0.8);
+}
+.rock:hover,
+.paper:hover,
+.scissors:hover img {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.output-display {
+  display: flex;
+  justify-content: center;
+  gap: 75em;
+  background-color: #2c2f33;
+  padding-bottom: 0px;
+}
+.player-output,
+.peko-output {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 1.5em;
+  padding-top: -20em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-bottom: 3em;
+}
+
+.pe-text,
+.p-text {
+  padding-left: 3em;
+}
+
+.footer-sections {
+  display: flex;
+  background-color: #1f2937;
+  padding: 0.75em;
+  justify-content: center;
+}
+
+.footer-texts {
+  padding-right: 1em;
+  color: white;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Press Start 2P", cursive;
+}

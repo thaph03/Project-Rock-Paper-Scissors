@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header class="game-titles">
+      <h1 class="game-name">Rock Paper Scissors</h1>
+    </header>
+    <div class="scores-board">
+      <h2 class="games-result">Choose your weapon</h2>
+      <h3 class="games-output">First to score 5 points wins the game</h3>
+      <div class="game-score">
+        <div class="player-score">0</div>
+        <p class="dash">-</p>
+        <div class="peko-score">0</div>
+      </div>
+    </div>
+    <ul class="game-choices">
+      <li class="rock"><img src="assets/rock.png" alt="#" /></li>
+      <li class="paper"><img src="assets/paper.png" alt="#" /></li>
+      <li class="scissors"><img src="assets/scissors.png" alt="#" /></li>
+    </ul>
+
+    <div class="output-display">
+      <div class="player-output">
+        <div class="player-visual">
+          <img src="assets/Me.png" alt="" width="250px" height="auto" />
+        </div>
+        <div class="p-text">None</div>
+      </div>
+      <div class="peko-output">
+        <div class="peko-visual">
+          <img src="assets/pekoAyaya.png" alt="" width="250px" height="auto" />
+        </div>
+        <div class="pe-text">None</div>
+      </div>
+    </div>
+
+    <div class="footer-sections">
+      <p class="footer-texts">
+        Made with <i class="bx bxs-heart"></i> by Thai Pham
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+      <div class="footer-logo">
+        <a href="https://github.com/thaph03"
+          ><i
+            class="bx bxl-github bx-tada bx-rotate-180 bx-sm"
+            style="color: #ffffff"
+          ></i
+        ></a>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
