@@ -31,7 +31,7 @@ const gamePlay = function (choice1, choice2) {
     myScore++;
     playerScore.textContent = myScore;
     if (myScore === 5) {
-      return (gameOutput.textContent = `${me} has won the game`);
+      return (gameOutput.textContent = `${me} has won the game, please press F5 on the keyboard to restart!`);
     }
   };
   const pekoWincon = function () {
@@ -41,7 +41,7 @@ const gamePlay = function (choice1, choice2) {
     peScore++;
     pekoScore.textContent = peScore;
     if (peScore === 5) {
-      return (gameOutput.textContent = `${pekoName} has won the game`);
+      return (gameOutput.textContent = `${pekoName} has won the game, please press F5 on the keyboard to restart!`);
     }
   };
 
